@@ -1,0 +1,49 @@
+:root{
+  --fundo: url('#');
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+button{
+  border: none;
+  cursor: pointer;
+}
+
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  transition: 1s;
+  background-color: white;
+  background-image: var(--fundo);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 50px;
+  border: 1px solid black;
+  transition: 500ms;
+}
+
+#trocar-fundo{
+  padding: 5px;
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
+}
+
+.container:hover{
+  color: aliceblue;
+}
